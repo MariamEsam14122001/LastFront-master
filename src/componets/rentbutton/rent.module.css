@@ -1,0 +1,127 @@
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1.25rem; /* 20px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  width: 15.625rem; /* 250px */
+  height: 20.625rem; /* 330px */
+}
+
+.close {
+  position: absolute;
+  top: 0.625rem; /* 10px */
+  right: 0.625rem; /* 10px */
+  cursor: pointer;
+  font-size: 1.25rem; /* 20px */
+  color: #888;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close:hover {
+  color: blue;
+  transform: scale(1.05);
+}
+
+.popup p {
+  margin-bottom: 0.625rem; /* 10px */
+  color: crimson;
+  font-size: large;
+  font-weight: 1000;
+}
+
+.popup button {
+  color: white;
+  text-decoration: none;
+  background-color: #0c1844;
+  cursor: pointer;
+  border-color: #0c1844;
+  border-radius: 2rem; /* 20px */
+  border-style: solid;
+  padding: 0.5rem; /* 5px */
+  margin-left: 6.875rem; /* 110px */
+  margin-top: 3.125rem; /* 50px */
+  font-weight: 600;
+  top: 13.75rem; /* 220px */
+  position: absolute;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.popup button:hover {
+  background-color: #0c184467;
+  transform: scale(1.05);
+}
+.popup a:hover {
+  text-decoration: underline;
+}
+
+.rent {
+  cursor: pointer;
+  border-radius: 2rem; /* 20px */
+  border-style: solid;
+  padding: 0.5rem; /* 8px */
+  color: white;
+  background-color: #0c1844;
+  border-color: #0c1844;
+  margin-left: 6.875rem; /* 110px */
+  margin-top: 3.125rem; /* 50px */
+  font-weight: 800;
+  width: 9.375rem; /* 150px */
+  font-size: medium;
+  position: relative;
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.rent:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}
+
+.img {
+  position: absolute;
+  color: #c80036;
+  font-weight: 700;
+  top: 2rem; /* 30px */
+}
+
+.browseimage {
+  position: absolute;
+  color: #000;
+  top: 0;
+}
+
+.text {
+  position: absolute;
+  color: gray;
+  top: 3.75rem; /* 60px */
+}
+
+.ReferenceNumber {
+  position: absolute;
+  color: #c80036;
+  font-weight: 700;
+  top: 7rem; /* 100px */
+}
+
+.Enterreferencenumber {
+  position: absolute;
+  color: #000;
+  top: 8.5rem; /* 130px */
+}
+
+.EndDate {
+  position: absolute;
+  color: #c80036;
+  font-weight: 700;
+  top: 12rem; /* 160px */
+}
+
+.dateinput {
+  position: absolute;
+  color: #000;
+  top: 13.5rem; /* 190px */
+}

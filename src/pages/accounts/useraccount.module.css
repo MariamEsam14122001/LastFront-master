@@ -1,0 +1,360 @@
+.form {
+  top: 2rem; /* 30px converted to rem */
+  left: 18.9rem; /* 80px converted to rem */
+  width: 46.25rem; /* 740px converted to rem */
+  height: 65rem; /* 900px converted to rem */
+
+  position: relative;
+
+  background-color: #fff5e1;
+  border-width: 0.25rem;
+  border-radius: 1.875rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-color: #0c1844;
+  border-style: solid;
+}
+
+.gender {
+  top: 45.875rem; /* 524px converted to rem */
+  left: 8.6875rem; /* 139px converted to rem */
+  color: black;
+  width: 5.25rem; /* 84px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.statusinput {
+  top: 42.875rem; /* 478px converted to rem */
+  left: 7.9375rem; /* 127px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.0625rem; /* 1px converted to rem */
+  border-radius: 0.9375rem; /* 6px converted to rem */
+}
+
+.userprofile {
+  top: 1rem; /* 67px converted to rem */
+  left: 13rem; /* 127px converted to rem */
+  color: black;
+  width: 19.9375rem; /* 319px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 2.25rem; /* 36px converted to rem */
+  font-style: SemiBold;
+
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.full-name {
+  top: 21.5625rem; /* 137px converted to rem */
+  left: 8.6875rem; /* 139px converted to rem */
+  width: 7.375rem; /* 118px converted to rem */
+  height: 1.875rem; /* 30px converted to rem */
+
+  position: absolute;
+}
+
+.name {
+  color: black;
+  width: 7.375rem; /* 118px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: "Poppins";
+  font-weight: 500;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+/* Add other styles with rem units here */
+
+.email-address {
+  top: 26.625rem; /* 218px converted to rem */
+  left: 8.625rem; /* 137.99966430664062px converted to rem */
+  width: 9.5625rem; /* 153px converted to rem */
+  height: 1.875rem; /* 30px converted to rem */
+
+  position: absolute;
+}
+
+.email {
+  color: black;
+  width: 9.5625rem; /* 153px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.password {
+  top: 31.625rem; /* 298px converted to rem */
+  left: 8.625rem; /* 138px converted to rem */
+  width: 7.4375rem; /* 119px converted to rem */
+  height: 6.25rem; /* 100px converted to rem */
+
+  position: absolute;
+}
+
+.password1 {
+  color: black;
+  width: 7.4375rem; /* 119px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: "Poppins";
+  font-weight: 500;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.status {
+  top: 41.125rem; /* 450px converted to rem */
+  left: 8.75rem; /* 140px converted to rem */
+  color: black;
+  width: 4.3125rem; /* 69px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.phone {
+  top: 36.625rem;
+  left: 8.625rem; /* 138px converted to rem */
+  color: black;
+  width: 4.3125rem; /* 69px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.button {
+  top: 60rem; /* 800px converted to rem */
+  left: 7.9375rem; /* 127px converted to rem */
+  width: 12.5rem; /* 200px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-style: solid;
+  border-color: #0c1844;
+  background-color: #0c1844;
+  color: white;
+  border-radius: 1.25rem; /* 20px converted to rem */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}
+.accountsetting {
+  top: 0.3125rem; /* 5px converted to rem */
+  left: 1.25rem; /* 20px converted to rem */
+
+  width: 10.5rem; /* 168px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: SemiBold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.nameinput {
+  top: 23.4375rem; /* 167px converted to rem */
+  left: 8.625rem; /* 138px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.0625rem; /* 1px converted to rem */
+  border-radius: 0.9375rem; /* 6px converted to rem */
+}
+
+.emailinput {
+  top: 28.9375rem; /* 253px converted to rem */
+  left: 8.625rem; /* 138px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.0625rem; /* 1px converted to rem */
+  border-radius: 0.9375rem; /* 6px converted to rem */
+}
+
+.genderinput {
+  top: 47.625rem; /* 554px converted to rem */
+  left: 8.625rem; /* 138px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.0625rem; /* 1px converted to rem */
+  border-radius: 0.9375rem; /* 6px converted to rem */
+}
+
+.age {
+  top: 50.75rem; /* 604px converted to rem */
+  left: 8.625rem; /* 138px converted to rem */
+  color: black;
+  width: 4.3125rem; /* 69px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: Poppins;
+  font-weight: 500;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.passwordinput {
+  top: 33.5rem; /* 328px converted to rem */
+  left: 8.625rem; /* 138px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.0625rem; /* 1px converted to rem */
+  border-radius: 0.9375rem; /* 6px converted to rem */
+}
+
+.ageinput {
+  top: 52.6875rem; /* 635px converted to rem */
+  left: 8.625rem; /* 127px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.0625rem; /* 1px converted to rem */
+  border-radius: 0.9375rem; /* 6px converted to rem */
+}
+
+.phoneinput {
+  top: 38.5rem;
+  left: 8.625rem; /* 127px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.0625rem; /* 1px converted to rem */
+  border-radius: 0.9375rem; /* 6px converted to rem */
+}
+
+.upload-container {
+  position: relative;
+}
+.space {
+  position: absolute;
+  border: 0.15rem;
+  border-style: dashed;
+  border-color: gray;
+  border-radius: 1rem;
+  top: 5rem;
+  left: 11.6rem;
+  width: 20rem;
+  height: 15rem;
+}
+
+.browse-button {
+  text-align: center;
+  cursor: pointer;
+  top: -2.6rem; /* 400px converted to rem */
+  border-style: solid;
+  border-width: 0.125rem; /* 2px converted to rem */
+  border-color: #0c1844;
+  border-radius: 1.25rem; /* 20px converted to rem */
+  position: relative;
+  width: 12.75rem; /* 300px converted to rem */
+  height: 2.2rem; /* 30px converted to rem */
+  left: 43.1875rem; /* 1070px converted to rem */
+  font-size: 1.25rem; /* 20px converted to rem */
+  color: white;
+  background-color: #0c1844;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.browse-button:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}
+
+.teext {
+  position: absolute;
+  top: 21.875rem; /* 350px converted to rem */
+  left: 14.125rem; /* 1150px converted to rem */
+}
+.foot {
+  position: relative;
+  top: 16rem;
+  margin-top: 1.25rem; /* Add some space above the footer */
+}
+.image-preview {
+  margin-top: -60rem;
+  /* text-align: center; */
+  /* left: 60rem; */
+}
+
+.image-preview-img {
+  width: 20rem;
+  position: relative;
+  left: 30.5rem;
+  height: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}

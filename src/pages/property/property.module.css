@@ -1,0 +1,341 @@
+.property-details {
+  width: 100%;
+  height: 1800px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.loginbotton {
+  top: 14px;
+  left: 1500px;
+  width: 105px;
+  height: 47px;
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  background-color: rgba(9, 192, 248, 0.507);
+}
+.logintext {
+  top: 23px;
+  left: 1520px;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.headertext {
+  top: 17px;
+  left: 98px;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: rgb(34, 32, 32);
+  text-align: left;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 15px;
+  border-radius: 100px;
+  border-style: inset;
+  border-color: rgba(9, 192, 248, 0.507);
+}
+.image1 {
+  top: 93px;
+  left: 250px;
+  width: 880px;
+  height: auto;
+  position: absolute;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: #0c1844;
+}
+
+.panorama-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rentdetails {
+  top: 50rem;
+  left: 60rem;
+  width: 330px;
+  height: 186px;
+  position: absolute;
+  border-color: #0c1844;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #fff5e1;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.r1 {
+  top: 51rem;
+  left: 61.5rem;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.r2 {
+  top: 58rem;
+  left: 64rem;
+  width: 218px;
+  height: 35px;
+  position: absolute;
+  border-color: #0c1844;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.r3 {
+  top: 58.5rem;
+  left: 65.5rem;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.rectangle12 {
+  top: 797px;
+  left: 45rem;
+  width: 38px;
+  height: 37px;
+
+  position: absolute;
+}
+.rentbutton {
+  position: relative;
+  left: 57rem;
+  top: 51rem;
+}
+
+.d3 {
+  top: 861px;
+  left: 30px;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.d4 {
+  top: 950px;
+  left: 30px;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.d5 {
+  top: 861px;
+  left: 400px;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.d6 {
+  top: 950px;
+  left: 400px;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.vrbutton {
+  top: 550px;
+  left: 350px;
+  width: 600px;
+  height: 81px;
+  position: absolute;
+  border-radius: 40px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+  background-color: #0c1844;
+}
+.vrbutton:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}
+
+.location {
+  top: 1100px;
+  left: 22rem;
+  color: #c80036;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.description {
+  top: 1100px;
+  left: 1.5rem;
+  color: #c80036;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.provider {
+  top: 1100px;
+  left: 50rem;
+  color: #c80036;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text15 {
+  top: 1170px;
+  left: 30rem;
+  color: #1679ab;
+  height: auto;
+  position: absolute;
+  font-size: large;
+  font-style: Light;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.text22 {
+  top: 1170px;
+  left: 60rem;
+  color: rgb(34, 32, 32);
+  height: auto;
+  position: absolute;
+  font-size: large;
+  font-style: Light;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.locationphoto {
+  top: 1140px;
+  left: 22rem;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.providerphoto {
+  top: 1140px;
+  left: 50rem;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+.line {
+  top: 1070px;
+  left: 20px;
+  width: 1270px;
+  height: 1px;
+  position: absolute;
+}
+
+.lineee {
+  top: 1400px;
+  left: 20px;
+  width: 1270px;
+  height: 1px;
+  position: absolute;
+}
+.foot {
+  position: relative;
+  top: 130rem;
+}
+.heart {
+  position: relative;
+  top: 1.2rem;
+  left: 17.5rem;
+  width: 2rem;
+  height: 2rem;
+}

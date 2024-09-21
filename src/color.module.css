@@ -1,0 +1,36 @@
+.projectcolors {
+  color: #c1ece4;
+  color: #ff9eaa;
+  color: #ffd0d0;
+  color: #3aa6b9;
+}
+.other {
+  color: #ffcbcb;
+  color: #ffb1b1;
+  color: #1679ab;
+  color: #102c57;
+}
+.another {
+  color: #fff5e1;
+  color: #ff6969;
+  color: #c80036;
+  color: #0c1844;
+}
+
+/*border-width: 0.25rem;
+border-radius: 1.875rem; 
+box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);*/
+
+.button:hover {
+  background-color: #0c184467;
+}
+.button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: white;
+}
+
+.button:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}

@@ -1,0 +1,256 @@
+.form {
+  top: 3rem; /* 400px converted to rem */
+  left: 18.75rem; /* 300px converted to rem */
+  width: 43.75rem; /* 700px converted to rem */
+  height: 43.75rem; /* 700px converted to rem */
+
+  position: relative;
+
+  border-style: solid;
+
+  background-color: #fff5e1;
+  border-color: #0c1844;
+  border-width: 0.25rem; /* 1px / 16 */
+  border-radius: 1.875rem; /* 100px / 16 */
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.userprofile {
+  top: 4rem; /* 67px converted to rem */
+  left: 13.9375rem; /* 127px converted to rem */
+  color: black;
+  width: 19.9375rem; /* 319px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 2.25rem; /* 36px converted to rem */
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.full-name {
+  top: 8.6rem; /* 137px converted to rem */
+  left: 8.6rem; /* 139px converted to rem */
+  width: 7.375rem; /* 118px converted to rem */
+  height: 1.875rem; /* 30px converted to rem */
+
+  position: absolute;
+}
+
+.name {
+  color: black;
+  width: 7.375rem; /* 118px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: "Poppins";
+  font-weight: 800;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.email-address {
+  top: 13.6rem; /* 218px converted to rem */
+  left: 8.6rem; /* 138px converted to rem */
+  width: 9.5625rem; /* 153px converted to rem */
+  height: 1.875rem; /* 30px converted to rem */
+
+  position: absolute;
+}
+
+.email {
+  color: black;
+  width: 9.5625rem; /* 153px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: Medium;
+
+  font-family: "Poppins";
+  font-weight: 800;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.phone {
+  color: black;
+  width: 7.4375rem; /* 119px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.55rem; /* 20px converted to rem */
+  font-style: Large;
+
+  font-family: "Poppins";
+  font-weight: 800;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.Phone1 {
+  top: 18.6rem;
+  left: 8.6rem; /* 138px converted to rem */
+  width: 7.4375rem; /* 119px converted to rem */
+  height: 6.25rem; /* 100px converted to rem */
+
+  position: absolute;
+
+  font-weight: 900;
+
+  font-stretch: normal;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.button {
+  top: 28.125rem; /* 450px converted to rem */
+  left: 4rem; /* 250px converted to rem */
+  width: 12.5rem; /* 200px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+
+  position: absolute;
+  color: white;
+  border-radius: 1.875rem; /* 30px converted to rem */
+  background-color: #0c1844;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}
+
+.button2 {
+  cursor: pointer;
+  top: 28.125rem; /* 500px converted to rem */
+  left: 27rem; /* 200px converted to rem */
+  width: 12.5rem; /* 300px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+
+  position: absolute;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: white;
+  border-radius: 1.875rem; /* 30px converted to rem */
+
+  background-color: #0c1844;
+}
+.button2:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}
+.button3 {
+  cursor: pointer;
+  top: 34.375rem; /* 550px converted to rem */
+  left: 4rem; /* 200px converted to rem */
+  width: 12.5rem; /* 300px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: white;
+  position: absolute;
+  border-radius: 1.875rem; /* 30px converted to rem */
+
+  background-color: #0c1844;
+}
+.button3:hover {
+  background-color: #fff5e1;
+  transform: scale(1.05);
+  color: #0c1844;
+}
+.logout {
+  cursor: pointer;
+  top: 38.2rem;
+  left: 27rem;
+
+  position: absolute;
+}
+
+.accccountsetting {
+  text-align: center;
+
+  top: 0.3125rem;
+  left: 1rem;
+  width: 10.5rem;
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem;
+  font-style: SemiBold;
+
+  font-family: "Poppins";
+  font-weight: 600;
+
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.accountsetting {
+  text-align: center;
+
+  top: 0.3125rem; /* 5px converted to rem */
+  left: 0.9375rem; /* 15px converted to rem */
+  width: 10.5rem; /* 168px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: SemiBold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.acccountsetting {
+  text-align: center;
+
+  top: 0.3125rem; /* 5px converted to rem */
+  left: 1rem; /* 70px converted to rem */
+  width: 10.5rem; /* 168px converted to rem */
+  height: auto;
+  position: absolute;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-style: SemiBold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.nameinput {
+  top: 10.5rem; /* 167px converted to rem */
+  left: 8.8rem; /* 127px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+}
+
+.emailinput {
+  top: 15.5rem; /* 253px converted to rem */
+  left: 8.8rem; /* 127px converted to rem */
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+}
+.Phoneinput {
+  top: 20.5rem;
+  left: 8.8rem;
+  width: 29rem; /* 464px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  position: absolute;
+}
+.foot {
+  position: relative;
+  top: 14rem;
+}

@@ -1,0 +1,15 @@
+.photoo {
+  width: 12.5rem; /* 200px converted to rem */
+  height: 12.5rem; /* 200px converted to rem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 33.375rem; /*px converted to rem */
+  top: 1.5rem; /* px converted to rem */
+  background-color: white; /* Light Pink */
+  border: 0.125rem solid #0c1844; /* Soft Pink */
+  border-radius: 6.25rem; /* 20px converted to rem */
+  text-align: center;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
